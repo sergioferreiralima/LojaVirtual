@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: blue;
+    padding: 16px 0;
+    color: #FFF;
+    font-family: 'Protest Riot', sans-serif;
+   
+
+}
+
+header h1 {
+    letter-spacing: 8px;
+    text-shadow: 2px 2px 5px rgb(46, 42, 42);
+}
+
+.conteudo {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  
+}
+
+.conteudo img {
+    width: 450px;
+}
+
+.sobre h2 {
+    margin-bottom: 30px;
+    border-bottom: 1px solid blue;
+    color: blue;
+}
+
+.sobre {
+    margin-left: 30px;
+}
+
+.menu {
+    list-style: none;
+    padding: 16px;
+    display: flex;
+}
+
+.menu li {
+    padding: 18px; 
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: 25% repeat(3, 1fr) ;
+    /*grid-template-columns: 25% 25% 25% 25%;*/
+    display: flex;  
+    margin-top: 30px;
+}
+
+.produtos img {
+    width: 150px;
+}
+
+.tenis p {
+    text-decoration-line: none;
+    font-family: 'Times New Roman', Times, serif;
+
+} 
+
+h2 {
+    color: blue;
+    border-bottom: 1px solid blue;
+    font-style: italic ;
+}
+
+h4 {
+    font-style:initial;
+    font-size: 18px; 
+  
+    
+}
+
+.produtos p {
+    margin: 5px auto;
+      
+}
+
+button {
+    color: #FFF;
+    background-color: blue;
+    border-top: 8px;
+    cursor: pointer;
+    width: 180px;
+    height: 25px;
+    text-align: center;
+    border: 0;
+    margin-top: 5px;
+    
+}

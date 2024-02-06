@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: blue;
+    padding: 16px 0;
+    color: #FFF;
+    font-family: 'Protest Riot', sans-serif;   
+
+}
+
+header h1 {
+    text-shadow: 2px 2px 5px rgb(46, 42, 42);
+}
+
+.conteudo {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  
+}
+
+.container .conteudo {
+    margin-left: 30px;
+}
+
+.conteudo img {
+    width: 450px;
+}
+
+.sobre h2 {
+    margin-bottom: 30px;
+    border-bottom: 1px solid blue;
+    color: blue;
+}
+
+.sobre {
+    margin-left: 30px;
+}
+
+.menu {
+    list-style: none;
+    padding: 16px;
+    display: flex;
+}
+
+.menu li {
+    padding: 18px; 
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: 25% repeat(3, 1fr) ;
+    /*grid-template-columns: 25% 25% 25% 25%;*/
+    /*display: flex;  */
+    margin-top: 30px;
+}
+
+.produtos h2 {
+
+    margin-left: 500px;
+}
+
+.produtos img {
+    width: 150px;
+}
+
+.tenis p {
+    text-decoration-line: none;
+    font-family: 'Times New Roman', Times, serif;
+
+} 
+
+h2 {
+    color: blue;
+    border-bottom: 1px solid blue;
+    font-style: italic ;
+ 
+}
+
+h4 {
+    font-style:initial;
+    font-size: 18px; 
+  
+    
+}
+
+.produtos p {
+    margin: 5px auto;
+      
+}
+
+button {
+    color: #FFF;
+    background-color: blue;
+    border-top: 8px;
+    cursor: pointer;
+    width: 180px;
+    height: 25px;
+    text-align: center;
+    border: 0;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    
+}
+
+
+/*--------------820px----------------------*/
+
+@media (max-width: 820px){
+
+    .container {
+        max-width: 650px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      
+
+    }
+    
+    header {
+        background-color: blue;
+        padding: 16px 0;
+        color: #FFF;
+        font-family: 'Protest Riot', sans-serif;   
+    
+    }
+    
+    header h1 {
+        
+        text-shadow: 2px 2px 5px rgb(46, 42, 42);
+    }
+    
+    .conteudo {
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 50px; 
+        align-items: center;
+    }
+
+    .conteudo img {
+        width: 550px;
+    }
+
+    .sobre h2 {
+        margin-bottom: 30px;
+        border-bottom: 1px solid blue;
+        color: blue;
+    }
+    
+    .sobre {
+        margin-left: 30px;
+        width: 550px;
+        margin-top: 30px;
+    }
+
+    .produtos {
+        display: grid;
+       /* grid-template-columns: 50% repeat(1, 1fr) ;*/
+        grid-template-columns: 50% 50%;        
+        margin-top: 30px;
+        width: 550px;
+    }
+    
+    .produtos img {
+        width: 75px;
+    }
+
+    .sobre h2 {
+        margin-bottom: 30px;
+        border-bottom: 1px solid blue;
+        color: blue;
+        
+    }
+
+ body h2 {
+    margin-left: 0px;
+ }
+
+ .teste {
+    margin-left: 130px;
+ }
+ 
+
+}
+
+
+ /*--------------375px----------------------*/
+
+@media (max-width: 375px){
+
+    .container {
+        max-width: 375px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      
+
+    }
+    
+    header {
+        background-color: blue;
+        padding: 16px 0;
+        color: #FFF;
+        font-family: 'Protest Riot', sans-serif;   
+    
+    }
+    
+    header h1 {
+        
+        text-shadow: 2px 2px 5px rgb(46, 42, 42);
+    }
+    
+    .conteudo {
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 50px; 
+        align-items: center;
+    }
+
+    .conteudo img {
+        width: 350px;
+    }
+
+    .sobre h2 {
+        margin-bottom: 30px;
+        border-bottom: 1px solid blue;
+        color: blue;
+    }
+    
+    .sobre {
+        margin-left: 30px;
+        width: 375px;
+        margin-top: 30px;
+    }
+
+    .produtos {
+        display: grid;
+       /* grid-template-columns: 50% repeat(1, 1fr) ;*/
+        grid-template-columns: 100%;        
+        margin-top: 30px;
+        width: 375px;
+    }
+    
+    .produtos img {
+        width: 75px;
+    }
+
+    .sobre h2 {
+        margin-bottom: 30px;
+        border-bottom: 1px solid blue;
+        color: blue;
+        
+    }
+
+ body h2 {
+    margin-left: 0px;
+ }
+
+ .teste {
+    margin-left: 15px;
+ }
+
+ .tenis {
+    margin: 30px;
+ }
+
+
+ 
+
+
+
+}
+
+
+
+
+
+
+
+
